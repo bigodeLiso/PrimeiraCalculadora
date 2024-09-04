@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Calculadora</h1>
+
+        <div id="but">
+            <div id="numb">
+                <button onclick="insert(1)">1</button>
+                <button onclick="insert(2)">2</button>
+                <button onclick="insert(3)">3</button>
+            </div>
+
+            <div id="opera">
+                <button onclick="insertOper('+')">+</button>
+                <button onclick="insertOper('-')">-</button>
+                <button onclick="enter()">ENTER</button>
+
+            </div>
+
+            <button id="limp" onclick="limpar()">Limpar</button>
+        </div>
+
+        <fieldset>
+            <legend>Conta</legend>
+            <div id="conta"></div>
+            <div id="oper"></div>
+            <div id="conta2"></div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Resultado</legend>
+            <div id="resultado"></div>
+        </fieldset>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

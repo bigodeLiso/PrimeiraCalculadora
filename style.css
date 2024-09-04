@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: Manrope;
+}
+
+#container{
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 58px;
+    position: relative;
+
+    width: 500px;
+    margin: 56px auto;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#but{
+    margin-top: 30px;
+    text-align: center;
+}
+
+button{
+    padding: 20px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: aliceblue;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+#limp{
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    height: 46px;
+    width: 100%;
+}
+
+button:hover{
+    background: rgb(209, 214, 218);
+}
+
+#opera, #numb{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#opera{
+    margin-top: 20px;
+}
+
+fieldset{
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    height: 60px;
+}
+
+legend{
+    margin-left: 14px;
+}
+
+
+/* #conta, #resultado{
+    
+    
+} */
+
+#oper, #conta, #conta2{
+    width: 40px;
+    text-align: center;
+    font-weight: 600;
+
+    
+}
